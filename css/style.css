@@ -964,3 +964,7 @@ footer .copyright {
    display: block;
    align-items: center;
 }
+#section-register{
+   display: none;
+   
+}
