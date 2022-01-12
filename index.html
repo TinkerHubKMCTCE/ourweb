@@ -51,7 +51,7 @@
           provide students with opportunity to study, grow, and expand their technical abilities.</p>
       </div>
       <div class="btn-wrapper">
-        <a href=" #section-register"  onclick="myfunction()" class="button">Join now</a>
+        <a href=" #section-register"   class="button">Join now</a>
       </div>
       <div>
         <img class="hero-img" src="images/5551.jpg" alt="">
@@ -484,15 +484,15 @@
         </div>
         <div class="form-group">
           <label for="phoneNo">Phone number</label>
-          <input type="tel" class="form-control" id="phoneNo" placeholder="Your WhatsApp number"
-            name="data[Phone_no]" required="required">
+          <input type="tel" class="form-control" id="phoneNo" placeholder="Your WhatsApp number" name="data[Phone_no]"
+            required="required">
         </div>
         <div class="form-group">
           <label for="year">Year</label>
           <select class="form-control" name="data[year]" id="year" placeholder="current studying year"
             required="required">
             <option>select a option</option>
-            <option value="1">1st</option>
+            <!-- <option value="1">1st</option> -->
             <option value="2">2nd</option>
             <option value="3">3rd</option>
             <option value="4">4th</option>
@@ -510,6 +510,7 @@
             <option value="EEE">EEE</option>
             <option value="AE">AE</option>
             <option value="ME">ME</option>
+            <option value="AU">AU</option>
           </select>
         </div>
         <button class="button" type="submit">Submit</button>
@@ -554,13 +555,11 @@
       }).then(
         response => response.json()
       ).then((html) => {
-        alert('success');
+        alert('Your details have added successfully!\n press ok to join our whatsapp group.');
         window.location = "https://chat.whatsapp.com/CbgSzXWwxCp8K1KlXWTm5m";
       })
     });
-     function myfunction(){
-       alert("Currently closed,wait for next cohort")
-     }
+     
     
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
