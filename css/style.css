@@ -964,3 +964,14 @@ footer .copyright {
    display: block;
    align-items: center;
 }
+
+.carousel-control-prev{
+   opacity: .1!important
+}
+.carousel-control-next{
+   opacity:.1!important
+}
+.carousel-photo{
+   height:60rem!important;
+
+}
