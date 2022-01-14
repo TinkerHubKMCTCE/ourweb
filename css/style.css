@@ -515,6 +515,10 @@ section {
    overflow: hidden;
 }
 
+.carousel-item {
+   nax-height: 80vh;  
+}
+
 .carousel-indicators li {
    /* background: #000 !important; */
    border-radius: 50% !important;
