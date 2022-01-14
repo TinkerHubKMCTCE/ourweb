@@ -518,8 +518,8 @@ section {
 .carousel-indicators li {
    /* background: #000 !important; */
    border-radius: 50% !important;
-   width: 1.5rem !important;
-   height: 1.5rem !important;
+   width: 1rem !important;
+   height: 1rem !important;
 }
 
 /* .carousel-indicators .active {
