@@ -522,7 +522,7 @@ section {
 }
 
 .carousel-item {
-   nax-height: 80vh;
+   max-height: 80vh;
 }
 
 .carousel-indicators li {
@@ -845,9 +845,9 @@ form {
    form {
       max-width: 100%;
    }
-   .carousel-photo {
+   /* .carousel-photo {
       height: 50rem !important;
-   }
+   } */
 }
 
 .form-control {
@@ -1000,9 +1000,9 @@ footer .copyright {
 .carousel-control-next {
    opacity: 0.1 !important;
 }
-.carousel-photo {
+/* .carousel-photo {
    height: 60rem !important;
-}
+} */
 .core {
    margin-left: 10rem !important;
 }
