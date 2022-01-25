@@ -1006,3 +1006,13 @@ footer .copyright {
 .core {
    margin-left: 10rem !important;
 }
+
+select:required:invalid {
+   color: #666;
+}
+option[value=""][disabled] {
+   display: none;
+}
+option {
+   color: #000;
+}
