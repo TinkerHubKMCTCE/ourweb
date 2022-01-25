@@ -56,10 +56,6 @@ h6 {
    font-size: 1.5rem !important;
 }
 
-img {
-   width: 100%;
-}
-
 hr {
    width: 5rem;
    margin: 0 auto;
@@ -131,6 +127,10 @@ hr {
 
 .home-heading__1 {
    opacity: 95%;
+}
+
+pic-col {
+   text-align: center;
 }
 
 @keyframes moveFromTop {
@@ -243,6 +243,12 @@ section {
       width: 100%;
       margin-top: -2rem;
    }
+}
+
+/* Section team */
+
+.section-team img {
+   width: 100%;
 }
 
 /* SECTION EVENTS */
@@ -516,7 +522,7 @@ section {
 }
 
 .carousel-item {
-   nax-height: 80vh;  
+   nax-height: 80vh;
 }
 
 .carousel-indicators li {
@@ -839,7 +845,7 @@ form {
    form {
       max-width: 100%;
    }
-   .carousel-photo{
+   .carousel-photo {
       height: 50rem !important;
    }
 }
@@ -932,7 +938,6 @@ footer .copyright {
    letter-spacing: 0.88px;
 }
 
-
 @media (max-width: 991px) {
    footer .text {
       margin-bottom: 30px;
@@ -943,7 +948,7 @@ footer .copyright {
    footer .footer-nav {
       margin-bottom: 30px;
    }
-   .carousel-photo{
+   .carousel-photo {
       height: auto;
    }
 }
@@ -989,16 +994,15 @@ footer .copyright {
    align-items: center;
 }
 
-.carousel-control-prev{
-   opacity: .1  !important;
+.carousel-control-prev {
+   opacity: 0.1 !important;
 }
-.carousel-control-next{
-   opacity:.1  !important;
+.carousel-control-next {
+   opacity: 0.1 !important;
 }
-.carousel-photo{
-   height:60rem  !important;
-
+.carousel-photo {
+   height: 60rem !important;
 }
-.core{
+.core {
    margin-left: 10rem !important;
 }
