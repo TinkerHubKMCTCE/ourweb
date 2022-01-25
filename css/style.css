@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   outline: none;
 }
 
 html {
@@ -865,6 +866,11 @@ form {
    padding: 0.5rem 1.5rem !important;
    background: #317bec1c !important;
    font-size: 1.6rem !important;
+}
+
+.form-control:hover,
+.form-control:focus {
+   border-radius: 0.5rem !important;
 }
 
 #section-register label {
